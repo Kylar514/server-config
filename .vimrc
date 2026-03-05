@@ -46,7 +46,8 @@ set shiftround
 set autoindent smartindent shiftround
 set shiftwidth=4
 set tabstop=4
-set softtabstop=
+set softtabstop=4
+nnoremap <leader>hl :nohlsearch<CR>
 
 set foldenable
 set foldmethod=indent
